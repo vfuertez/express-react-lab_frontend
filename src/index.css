@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +10,65 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to right, #DECBA4, #3E5151);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.title {
+  text-align: center;
+  padding: 20px;
+}
+
+img {
+  max-width: 450px;
+}
+
+.projectDisplay {
+ text-align: center;
+ margin: 20px;
+}
+
+button {
+  font-size: 18px;
+}
+
+.about {
+  width: 600px;
+  text-align: center;
+  margin:30px;
+  padding-left: 400px;
+}
+
+.nav{
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color:black;
+}
+
+a :hover {
+  color: orange
+}
+
+.home {
+ max-width: 200px;
+ margin: 30px;
+ padding: 30px;
+}
+
+.head {
+  text-align: center;
+  padding: 20px;
+  margin: 30px;
+}
+
+h5 {
+  text-align: center;
+  padding-top: 15%;
 }
